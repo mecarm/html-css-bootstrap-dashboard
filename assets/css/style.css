@@ -10,3 +10,21 @@ main{
     height: calc(100% - 50px);
     background-color: antiquewhite;
 }
+
+.sidebar_{
+    height: 100%;
+    background: #051E34;
+    color: white;
+}
+
+.dashboard_container{
+    background-color: aqua;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px){
+    
+    .md_dont_show{
+        display: none;
+    }
+}

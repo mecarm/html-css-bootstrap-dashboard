@@ -21,11 +21,30 @@
     <div class="my_container">
         <!-- Header con barra di ricerca -->
         <header class="w-100">
-
+            
         </header>
         <!-- contenitore dashboard  -->
-        <main class="w-100">
-
+        <main class="w-100 d-flex">
+            <!-- Siderbar a sinistra -->
+            <div class="sidebar_ px-3 d-flex flex-column justify-content-between">
+                <!-- Top container -->
+                <div class="pt-1">
+                    <div class="py-1">
+                        <i class="fa-solid fa-house"></i> <span class="md_dont_show">Home</span>
+                    </div>
+                    <div class="py-1">
+                        <i class="fa-solid fa-chart-simple"></i> <span class="md_dont_show">Stats</span>
+                    </div>
+                    <div class="py-1">
+                        <i class="fa-solid fa-signal"></i> <span class="md_dont_show">Signals</span>
+                    </div>
+                </div>
+                <!-- Bottom container -->
+                <div class="pb-3">
+                    <i class="fa-solid fa-gear"></i> <span class="md_dont_show">Admin</span>
+                </div>
+            </div>
+            <div class="dashboard_container flex-grow-1"></div>
         </main>
     </div>
     
