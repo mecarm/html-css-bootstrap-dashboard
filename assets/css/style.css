@@ -8,17 +8,17 @@ header{
 
 main{
     height: calc(100% - 50px);
-    background-color: antiquewhite;
 }
 
 .sidebar_{
     height: 100%;
     background: #051E34;
+    background-image: url("../img/sidebar-bg.png");
     color: white;
 }
 
 .dashboard_container{
-    background-color: aqua;
+    background-color: white;
     height: 100%;
 }
 
@@ -47,10 +47,23 @@ header > div{
     color: #FF8F00;
 }
 
+.md_show{
+    display: none;
+}
+
+.display-6{
+    font-size: 2rem;
+}
+
+
 @media screen and (max-width: 768px){
     
     .md_dont_show{
         display: none;
+    }
+
+    .md_show{
+        display:inline;
     }
 
     .lg_dont_show{
