@@ -22,9 +22,40 @@ main{
     height: 100%;
 }
 
+header{
+    background-color: #F8F9FA;
+}
+
+header > div{
+    background-color: white;
+}
+
+.lg_dont_show{
+    display: none;
+}
+
+.search_bar{
+    background: #E5E5E5;
+}
+
+.search_bar > input{
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.fa-bell{
+    color: #FF8F00;
+}
+
 @media screen and (max-width: 768px){
     
     .md_dont_show{
         display: none;
+    }
+
+    .lg_dont_show{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
     }
 }
