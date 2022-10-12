@@ -55,6 +55,16 @@ header > div{
     font-size: 2rem;
 }
 
+td > span > .fa-code{
+    background-color: #F26551;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.card-body{
+    font-size: 0.8rem;
+}
+
 
 @media screen and (max-width: 768px){
     
