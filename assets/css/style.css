@@ -17,6 +17,10 @@ main{
     color: white;
 }
 
+.sidebar_ span{
+    font-size: 0.7rem;
+}
+
 .dashboard_container{
     background-color: white;
     height: 100%;
@@ -80,5 +84,9 @@ td > span > .fa-code{
         display: inline-block;
         width: 30px;
         height: 30px;
+    }
+
+    .offcanvas{
+        width: 100% !important;
     }
 }
