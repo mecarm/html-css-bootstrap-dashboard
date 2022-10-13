@@ -65,8 +65,16 @@ td > span > .fa-code{
     border-radius: 50%;
 }
 
-.card-body{
-    font-size: 0.8rem;
+table{
+    font-size: 0.9rem;
+}
+
+th:first-child{
+    width: 60%;
+}
+
+td:first-child{
+    width: 60%;
 }
 
 
@@ -88,5 +96,9 @@ td > span > .fa-code{
 
     .offcanvas{
         width: 100% !important;
+    }
+
+    table{
+        font-size: 0.7rem;
     }
 }
