@@ -69,7 +69,7 @@
                 </div>
             </div>
             <!-- Dashboard right container -->
-            <div class="dashboard_container flex-grow-1">
+            <div class="dashboard_container flex-grow-1 overflow-auto">
                 <!-- nav blu container -->
                 <div class="text-bg-primary d-flex flex-wrap">
                     <!-- Boolean column -->
@@ -98,9 +98,67 @@
                     <!-- Prossime classi column -->
                     <div class="col-md-8 col-12 p-2">
                         <div class="card">
-                            <div class="card-header h3">
-                                Prossime classi
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h3>Prossime classi</h3>
+                                <button class="btn border-primary text-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                <!-- OFFCANVAS -->
+                            <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Compila il form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
+                            <div class="offcanvas-body">
+                                <!-- Form -->
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">Email</label>
+                                      <input type="email" placeholder="ESEMPIO: lino_topo@gmail.com" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Indirizzo</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">Città</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">Stato</label>
+                                      <select id="inputState" class="form-select">
+                                        <option selected>Scegli</option>
+                                        <option>...</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <label for="inputZip" class="form-label">CAP</label>
+                                      <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="formFileSm" class="form-label">Nessun file selezionato</label>
+                                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                      </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <button type="submit" class="btn btn-primary">Salva</button>
+                                      <button type="delete" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                  </form>  
+                            </div>
+                            </div>
+                            </div>
+                            <!-- Fine form -->
+                            <!-- Inizio Table -->
                             <div class="card-body">
                                 <table class="table">
                                     <thead>
