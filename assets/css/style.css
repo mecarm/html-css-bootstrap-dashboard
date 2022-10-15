@@ -78,6 +78,7 @@ td:first-child{
 }
 
 
+
 @media screen and (max-width: 768px){
     
     .md_dont_show{
@@ -98,7 +99,4 @@ td:first-child{
         width: 100% !important;
     }
 
-    table{
-        font-size: 0.7rem;
-    }
 }
